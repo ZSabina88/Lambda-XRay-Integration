@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 
 // Initialize DynamoDB client
 const dynamoDBClient = new DynamoDBClient({});
-const weatherTableName = process.env.table_name;
+const weatherTableName = process.env.table_name || "Weather";
 
 // Define the Lambda handler
 exports.handler = async (event) => {

@@ -1,0 +1,14 @@
+{
+  "name": "processor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.632.0",
+    "axios": "^1.7.4",
+    "uuid": "^10.0.0"
+  }
+}
